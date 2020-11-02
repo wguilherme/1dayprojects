@@ -48,7 +48,9 @@
 }
 /*  */
 
-
+.convenios {
+   margin-bottom: 100px;
+}
 .convenios section {
    max-width: 1100px;
    margin: 0 auto;
@@ -59,3 +61,70 @@
    margin-bottom: 50px;
    text-transform: uppercase;
 }
+
+.seu-coracao {
+   background-color: #EDEDED;
+   padding: 90px 0;
+}
+.seu-coracao section {
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+
+.contato {
+   padding: 90px 0;
+}
+
+
+.contato section {
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+.contato section h2 {
+   margin-bottom: 50px;
+
+}
+
+.contato section span {
+   display: flex;
+}
+
+.contato section p {
+   font-size: 22px;
+}
+
+.contato section span img {
+   height: 30px;
+   width: 30px;
+   margin-right: 10px;
+}
+
+.contato form {
+   margin-top: 50px;
+}
+
+.localizacao section {
+   margin: 0 auto;
+}
+
+.localizacao {
+   padding: 0;
+}
+
+.footer {
+   background-color: #C6C6C6;
+   padding: 0;
+   height: 60px;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer p {
+   color: white;
+
+}
+
