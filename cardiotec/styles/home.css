@@ -6,6 +6,7 @@
 .header {
    height: 600px;
    background-color: #dddddd;
+
 }
 
 .especialidades {
@@ -13,7 +14,7 @@
 }
 
 .especialidades section {
-   width: 900px;
+   max-width: 900px;
    margin: 0 auto;
 }
 
@@ -24,16 +25,18 @@
 }
 
 .especialidades section .card {
-   margin: 0 15px;
+
+   padding: 15px;
 }
 
-/*  */
+/* */
+
 .equipe {
    padding: 90px 0;
 }
 
 .equipe section {
-   width: 900px;
+   max-width: 900px;
    margin: 0 auto;
 }
 
@@ -105,12 +108,11 @@
    margin-top: 50px;
 }
 
-.localizacao section {
-   margin: 0 auto;
-}
-
 .localizacao {
-   padding: 0;
+   height: 400px;
+   background-image: url('../images/bg_map.png');
+   background-position: center center;
+   background-size: cover;
 }
 
 .footer {
