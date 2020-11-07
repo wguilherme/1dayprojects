@@ -1,132 +1,129 @@
-.nav {
-   height: 70px;
-   background-color: #EDEDED;
+.menu section{
+
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+
+  padding: 20px 0;
+
+}
+
+
+.menu section img + img {
+  width: 348px;
+  height: 53px;
+
 }
 
 .header {
-   height: 600px;
-   background-color: #dddddd;
+  height: 600px;
 
+  background-image: url('./../images/header_background.jpg');
+  background-size: cover;
+  background-position: left center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.header section {
+  width: 900px;
+
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.header h1 {
+  color: #294481;
+  font-size: 50px;
+
+  line-height: 1em;
 }
 
 .especialidades {
-   padding: 90px 0;
+padding: 90px 0;
+
+background-color: #2E508E;
 }
 
 .especialidades section {
-   max-width: 900px;
-   margin: 0 auto;
+  width: 900px;
+  margin: 0 auto;
+
+  margin-top: -170px;
 }
 
-.especialidades section h2 {
-   text-align: center;
-   margin-bottom: 50px;
-   text-transform: uppercase;
+.especialidades section h3 {
+color: #2E508E;
+text-transform: uppercase;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 20px;
 }
 
 .especialidades section .card {
-
-   padding: 15px;
+  margin: 0 10px;
 }
 
-/* */
-
-.equipe {
-   padding: 90px 0;
+.especialidades .card-especialidades {
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,.3);
 }
 
-.equipe section {
-   max-width: 900px;
-   margin: 0 auto;
+.especialidades .card-especialidades img {
+  width: 32%;
 }
 
-.equipe section h2 {
-   text-align: center;
-   margin-bottom: 50px;
-   text-transform: uppercase;
-}
 
-.equipe section .card {
-   margin: 0 15px;
-}
+
 /*  */
 
-.convenios {
-   margin-bottom: 100px;
-}
-.convenios section {
-   max-width: 1100px;
-   margin: 0 auto;
-}
+.equipe {
+  padding: 90px 0;
+  }
+  
+  .equipe section {
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .equipe section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  
+  .equipe section .card {
+    margin: 0 15px;
+  }
 
-.convenios section h2 {
-   text-align: center;
-   margin-bottom: 50px;
-   text-transform: uppercase;
-}
+  .convenios section {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
 
-.seu-coracao {
-   background-color: #EDEDED;
-   padding: 90px 0;
-}
-.seu-coracao section {
-   max-width: 900px;
-   margin: 0 auto;
-}
+  .convenios section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
 
+  .footer section{
 
-.contato {
-   padding: 90px 0;
-}
+    display: flex;
+    justify-content: center;
+    align-items:center;
 
-
-.contato section {
-   max-width: 900px;
-   margin: 0 auto;
-}
-
-.contato section h2 {
-   margin-bottom: 50px;
-
-}
-
-.contato section span {
-   display: flex;
-}
-
-.contato section p {
-   font-size: 22px;
-}
-
-.contato section span img {
-   height: 30px;
-   width: 30px;
-   margin-right: 10px;
-}
-
-.contato form {
-   margin-top: 50px;
-}
-
-.localizacao {
-   height: 400px;
-   background-image: url('../images/bg_map.png');
-   background-position: center center;
-   background-size: cover;
-}
-
-.footer {
-   background-color: #C6C6C6;
-   padding: 0;
-   height: 60px;
-
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-
-.footer p {
-   color: white;
-
-}
+background-color: #2E508E;
+color: white;
+padding: 10px;
+  }
 
