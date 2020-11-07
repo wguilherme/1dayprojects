@@ -82,11 +82,44 @@ margin-bottom: 20px;
 }
 
 
+/*  */
+
+  .seu-coracao {
+  padding: 120px 0;
+  }
+
+.seu-coracao section {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.seu-coracao section h2 {
+  font-weight: bold ;
+  color: #2E508E;
+}
+
+
+.seu-coracao section button {
+  border: none;
+  padding: 20px;
+
+  background-color: #2E508E;
+
+  color: white;
+  text-transform: uppercase;
+
+  border-radius: 8px;
+}
+
+.seu-coracao section img {
+  border-radius: 8px;
+}
+
 
 /*  */
 
-.equipe {
-  padding: 90px 0;
+  .equipe {
+  background-color: #2E508E;
   }
   
   .equipe section {
@@ -94,20 +127,51 @@ margin-bottom: 20px;
     margin: 0 auto;
   }
   
+  .equipe section .row {
+
+    padding: 150px 0
+
+  }
   .equipe section h2 {
     text-align: center;
-    margin-bottom: 50px;
     text-transform: uppercase;
+
+    padding-top: 50px;
+    color: white;
+
+  }
+
+  .equipe section h3 {
+    margin-top: 20px;
   }
   
-  .equipe section .card {
-    margin: 0 15px;
+
+  .equipe-img-wrapper {
+    padding: 20px;
+    background-color: white;
+    width: 85%;
+
+    margin: 0 auto;
+    margin-top: -120px;
+    border-radius: 50%;
+
+  }
+  .equipe-img-wrapper img {
+    border-radius: 50%;
+  }
+
+  .card-equipe {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,.3);
   }
 
   .convenios section {
     max-width: 1100px;
     margin: 0 auto;
     margin-bottom: 100px;
+    padding: 100px 0;
   }
 
   .convenios section h2 {
@@ -116,14 +180,50 @@ margin-bottom: 20px;
     text-transform: uppercase;
   }
 
-  .footer section{
+    .convenios section .swiper-slide {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0px 3px 16px rgba(0, 0, 0, 0.17);
+    }
 
+    .convenios section .swiper-wrapper {
+      padding: 50px 0;
+    }
+
+    .convenios section .swiper-wrapper img {
+      border-radius: 8px;
+    }
+
+    .contato {
+    background-color: #294481;
+    padding: 120px 0;
+    }
+
+    .contato section {
+      width: 900px;
+      margin: 0 auto;
+    }  
+    .contato section h2,
+    .contato section h3,
+    .contato section p
+    {
+      color: white;
+    }
+
+
+    .localizacao {
+      background-image:  url('./../images/bg_map.jpg');
+      height: 500px;
+    }
+
+
+
+  .footer section{
     display: flex;
     justify-content: center;
     align-items:center;
-
-background-color: #2E508E;
-color: white;
-padding: 10px;
+    background-color: #2E508E;
+    color: white;
+    padding: 10px;
   }
 
